@@ -24,12 +24,14 @@ body {
 
 .herosec {
   display: flex;
-  width: 500px;
+  width: 600px;
   height: auto;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
+  margin-right: 100px;
   align-items: end;
   background-color: #927e67ff;
+  box-shadow: 4px 4px #463e34ff;
 }
 
 nav {
@@ -89,19 +91,26 @@ a:focus {
   text-decoration: none;
 }
 
-.lowerthird {
+.third {
   font-size: 14px;
   display: flex;
   height: auto;
   border-radius: 10px;
-  gap: 100px;
+  flex: auto;
+  justify-content: space-evenly;
 }
-.third {
+
+.box {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-}
-.lowerthird p {
+  flex-direction: column;
+  border-radius: 10px;
   width: 500px;
   background-color: #927e67ff;
+  box-shadow: 4px 4px #463e34ff;
+}
+.box h3 {
+  color: #d8c6b2ff;
+  font-size: 1.5rem;
 }
