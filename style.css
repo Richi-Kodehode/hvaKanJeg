@@ -1,5 +1,77 @@
+/* CSS HEX
+--almond: #eae0d5ff text
+--dun: #d8c6b2ff overskrift
+--beaver: #927e67ff 
+--walnut-brown: #5e503fff - background footer & header
+--taupe: #463e34ff - main background
+ */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #463e34ff;
+  color: #eae0d5ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroimg {
+  padding: 15px;
+  display: flex;
+}
+.herosec {
+  align-items: center;
+}
+.heroimg img {
+  width: 800px;
+  height: auto;
+  box-shadow: 8px 8px 0px 0px black;
+}
+.herosec {
+  display: flex;
+  justify-content: top;
+}
+
+nav {
+  background-color: #5e503fff;
+}
+
+.footerbox {
+  background-color: #5e503fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.navmenu {
+  color: #eae0d5ff;
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+  font-size: 1.5rem;
+  padding-right: 50px;
+}
+.navheader {
+  color: #d8c6b2ff;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+}
+.header2 {
+  color: #d8c6b2ff;
+}
+.herop {
+  font-size: 14px;
+  display: flex;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
