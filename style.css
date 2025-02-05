@@ -92,8 +92,16 @@ a:focus {
 .lowerthird {
   font-size: 14px;
   display: flex;
-  width: 1000px;
   height: auto;
-  background-color: #927e67ff;
+  border-radius: 10px;
+  gap: 100px;
+}
+.third {
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+.lowerthird p {
+  width: 500px;
+  background-color: #927e67ff;
 }
