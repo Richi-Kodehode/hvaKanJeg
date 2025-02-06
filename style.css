@@ -19,7 +19,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(./assets/background.jpg);
   background-size: cover;
-  height: 100%;
 }
 
 .herosec {
@@ -27,24 +26,22 @@ body {
   width: 600px;
   height: auto;
   border-radius: 10px;
-  padding: 10px;
-  margin-right: 100px;
+  padding: 70px;
+  margin-right: 150px;
   align-items: end;
   background-color: #927e67ff;
   box-shadow: 4px 4px #463e34ff;
 }
+.header2 {
+  color: #d8c6b2ff;
+  font-size: 32px;
+}
+.herop {
+  font-size: 20px;
+}
 
 nav {
   background-color: #5e503fff;
-}
-
-.footerbox {
-  background-color: #5e503fff;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
 }
 
 .navmenu {
@@ -53,12 +50,13 @@ nav {
   justify-content: end;
   flex: auto;
   gap: 25px;
-  font-size: 1rem;
+  font-size: 2rem;
   padding-right: 50px;
 }
 .navbar {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
 .navheader {
@@ -66,17 +64,11 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1rem;
+  font-size: 2rem;
   padding-left: 30px;
   margin: 10px;
 }
 
-.header2 {
-  color: #d8c6b2ff;
-}
-body.herop {
-  font-size: 14px;
-}
 main {
   min-height: 100vh;
   display: flex;
@@ -102,15 +94,35 @@ a:focus {
 
 .box {
   display: flex;
-  align-items: start;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  width: 500px;
+  width: 600px;
   background-color: #927e67ff;
   box-shadow: 4px 4px #463e34ff;
+  padding: 50px;
 }
 .box h3 {
   color: #d8c6b2ff;
   font-size: 1.5rem;
+}
+
+.box p {
+  font-size: 18px;
+}
+
+.box img {
+  width: 500px;
+  height: auto;
+}
+
+.footerbox {
+  background-color: #5e503fff;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
