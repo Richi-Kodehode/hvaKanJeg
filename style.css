@@ -19,11 +19,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(./assets/background.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .herosec {
   display: flex;
-  width: 600px;
+  width: 800px;
   height: auto;
   border-radius: 10px;
   padding: 70px;
